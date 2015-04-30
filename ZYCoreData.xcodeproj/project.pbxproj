@@ -14,6 +14,13 @@
 		FD33B3001AF1F5AC004CC24F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD33B2FF1AF1F5AC004CC24F /* Images.xcassets */; };
 		FD33B3031AF1F5AC004CC24F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD33B3011AF1F5AC004CC24F /* LaunchScreen.xib */; };
 		FD33B30F1AF1F5AC004CC24F /* ZYCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33B30E1AF1F5AC004CC24F /* ZYCoreDataTests.m */; };
+		FD33B3291AF1F600004CC24F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD33B3191AF1F600004CC24F /* Model.xcdatamodeld */; };
+		FD33B32A1AF1F600004CC24F /* MyPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33B31C1AF1F600004CC24F /* MyPerson.m */; };
+		FD33B32B1AF1F600004CC24F /* NSEntityDescription+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33B31F1AF1F600004CC24F /* NSEntityDescription+Ext.m */; };
+		FD33B32C1AF1F600004CC24F /* ZYCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33B3211AF1F600004CC24F /* ZYCoreData.m */; };
+		FD33B32D1AF1F600004CC24F /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33B3241AF1F600004CC24F /* Child.m */; };
+		FD33B32E1AF1F600004CC24F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33B3261AF1F600004CC24F /* Person.m */; };
+		FD33B32F1AF1F600004CC24F /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33B3281AF1F600004CC24F /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,19 @@
 		FD33B3081AF1F5AC004CC24F /* ZYCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD33B30D1AF1F5AC004CC24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD33B30E1AF1F5AC004CC24F /* ZYCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCoreDataTests.m; sourceTree = "<group>"; };
+		FD33B31A1AF1F600004CC24F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FD33B31B1AF1F600004CC24F /* MyPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPerson.h; sourceTree = "<group>"; };
+		FD33B31C1AF1F600004CC24F /* MyPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPerson.m; sourceTree = "<group>"; };
+		FD33B31E1AF1F600004CC24F /* NSEntityDescription+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+Ext.h"; sourceTree = "<group>"; };
+		FD33B31F1AF1F600004CC24F /* NSEntityDescription+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEntityDescription+Ext.m"; sourceTree = "<group>"; };
+		FD33B3201AF1F600004CC24F /* ZYCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCoreData.h; sourceTree = "<group>"; };
+		FD33B3211AF1F600004CC24F /* ZYCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCoreData.m; sourceTree = "<group>"; };
+		FD33B3231AF1F600004CC24F /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		FD33B3241AF1F600004CC24F /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		FD33B3251AF1F600004CC24F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FD33B3261AF1F600004CC24F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FD33B3271AF1F600004CC24F /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		FD33B3281AF1F600004CC24F /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +106,8 @@
 				FD33B2F91AF1F5AC004CC24F /* ViewController.h */,
 				FD33B2FA1AF1F5AC004CC24F /* ViewController.m */,
 				FD33B2FC1AF1F5AC004CC24F /* Main.storyboard */,
+				FD33B3181AF1F600004CC24F /* coreData */,
+				FD33B3221AF1F600004CC24F /* KVC_KVO_Entity */,
 				FD33B2FF1AF1F5AC004CC24F /* Images.xcassets */,
 				FD33B3011AF1F5AC004CC24F /* LaunchScreen.xib */,
 				FD33B2F21AF1F5AC004CC24F /* Supporting Files */,
@@ -117,6 +139,41 @@
 				FD33B30D1AF1F5AC004CC24F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD33B3181AF1F600004CC24F /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				FD33B3191AF1F600004CC24F /* Model.xcdatamodeld */,
+				FD33B31B1AF1F600004CC24F /* MyPerson.h */,
+				FD33B31C1AF1F600004CC24F /* MyPerson.m */,
+				FD33B31D1AF1F600004CC24F /* ZYCoreData */,
+			);
+			path = coreData;
+			sourceTree = "<group>";
+		};
+		FD33B31D1AF1F600004CC24F /* ZYCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FD33B31E1AF1F600004CC24F /* NSEntityDescription+Ext.h */,
+				FD33B31F1AF1F600004CC24F /* NSEntityDescription+Ext.m */,
+				FD33B3201AF1F600004CC24F /* ZYCoreData.h */,
+				FD33B3211AF1F600004CC24F /* ZYCoreData.m */,
+			);
+			path = ZYCoreData;
+			sourceTree = "<group>";
+		};
+		FD33B3221AF1F600004CC24F /* KVC_KVO_Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FD33B3231AF1F600004CC24F /* Child.h */,
+				FD33B3241AF1F600004CC24F /* Child.m */,
+				FD33B3251AF1F600004CC24F /* Person.h */,
+				FD33B3261AF1F600004CC24F /* Person.m */,
+				FD33B3271AF1F600004CC24F /* Student.h */,
+				FD33B3281AF1F600004CC24F /* Student.m */,
+			);
+			path = KVC_KVO_Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +276,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD33B32C1AF1F600004CC24F /* ZYCoreData.m in Sources */,
 				FD33B2FB1AF1F5AC004CC24F /* ViewController.m in Sources */,
 				FD33B2F81AF1F5AC004CC24F /* AppDelegate.m in Sources */,
 				FD33B2F51AF1F5AC004CC24F /* main.m in Sources */,
+				FD33B3291AF1F600004CC24F /* Model.xcdatamodeld in Sources */,
+				FD33B32B1AF1F600004CC24F /* NSEntityDescription+Ext.m in Sources */,
+				FD33B32E1AF1F600004CC24F /* Person.m in Sources */,
+				FD33B32F1AF1F600004CC24F /* Student.m in Sources */,
+				FD33B32D1AF1F600004CC24F /* Child.m in Sources */,
+				FD33B32A1AF1F600004CC24F /* MyPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +486,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD33B3191AF1F600004CC24F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD33B31A1AF1F600004CC24F /* Model.xcdatamodel */,
+			);
+			currentVersion = FD33B31A1AF1F600004CC24F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FD33B2E71AF1F5AC004CC24F /* Project object */;
 }
